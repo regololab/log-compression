@@ -1,7 +1,7 @@
 # log-compression
 read and compress custom log file
 
-**Use
+**Use**
 
 In log_list.yaml add list custom log:
 
@@ -12,7 +12,7 @@ log2: /var/log/my_log3/log.log
 
 log3: /var/www/html/project/log/manelog.log
 
-**in crontab
+**in crontab**
 
 add row: 
 
