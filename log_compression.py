@@ -30,8 +30,7 @@ class LogCompression():
     def __delete_file(self, path):
         for R in os.listdir(path):
             if R.endswith('.gz'):
-                print(R)
-                if os.stat(R).st_mtime < self.now - self.delete_old_file * 86400:
+                if os.stat(path+R).st_mtime < self.now - self.delete_old_file * 86400:
                     os.system(f'rm -f {path}{R}')
 
 logmin = LogCompression()
