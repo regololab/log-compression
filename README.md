@@ -7,7 +7,7 @@ In log_list.yaml add list custom log:\
 #list file log\
 log1: /var/log/my_log/log.log\
 log2: /var/log/my_log3/log.log\
-log3: /var/www/html/project/log/manelog.log
+log3: /var/www/html/project/log/namelog.log
 
 **in crontab**
 
